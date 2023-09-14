@@ -29,3 +29,7 @@ Bypass the filter using a url encoded Chinese dot %E3%80%82<br>
 Example: ?redirect=example.com --> ?redirect=evil.com%E3%80%82%23example.com<br>
 Bypass the filter if it only allows you to control the path using a nullbyte %0d or %0a<br>
 Example: ?redirect=/ --> ?redirect=/%0d/evil.com<br>
+# HASH REDIRECTION
+some sites may use hash to identify if redirect link is valid
+http://sample.com/?url=https://valid_redirect.com&hash=encrypted_hash_value
+just generate hash for needed website
