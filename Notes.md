@@ -33,3 +33,5 @@ Example: ?redirect=/ --> ?redirect=/%0d/evil.com<br>
 some sites may use hash to identify if redirect link is valid
 http://sample.com/?url=https://valid_redirect.com&hash=encrypted_hash_value
 just generate hash for needed website
+# SOCKETS
+Do not forget to emulate user input when sending data(add "\n")<br>
