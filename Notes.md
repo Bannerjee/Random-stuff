@@ -35,3 +35,5 @@ http://sample.com/?url=https://valid_redirect.com&hash=encrypted_hash_value
 just generate hash for needed website
 # SOCKETS
 Do not forget to emulate user input when sending data(add "\n")<br>
+# REQUESTS
+Do not forget to create session for cookie saving<br>
