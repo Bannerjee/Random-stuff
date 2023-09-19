@@ -38,4 +38,4 @@ Do not forget to emulate user input when sending data(add "\n")<br>
 # REQUESTS
 Do not forget to create session for cookie saving<br>
 # BUFFER OVERFLOW
-check to which encoding you convert + don't forget about endians
+check to which encoding you convert + don't forget about endians<br>
