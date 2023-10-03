@@ -39,3 +39,15 @@ Do not forget to emulate user input when sending data(add "\n")<br>
 Do not forget to create session for cookie saving<br>
 # BUFFER OVERFLOW
 check to which encoding you convert + don't forget about endians<br>
+# ASSEMBLY
+DO NOT FORGET ABOUT CALLING CONVENTIONS AND SHADOW SPACE
+RAX - function return value
+RCX - first function parameter
+RDX - second function parameter
+R8  - third function parameter
+R9  - forth function parameter
+fifth+ functions parameters are PUSHed onto stack
+command line arguments:
+argc in rcx
+argv in rdx(rdx+8 for second,rdx+16 for third etc)
+argc in 
