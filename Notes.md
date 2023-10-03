@@ -40,14 +40,13 @@ Do not forget to create session for cookie saving<br>
 # BUFFER OVERFLOW
 check to which encoding you convert + don't forget about endians<br>
 # ASSEMBLY
-DO NOT FORGET ABOUT CALLING CONVENTIONS AND SHADOW SPACE
-RAX - function return value
-RCX - first function parameter
-RDX - second function parameter
-R8  - third function parameter
-R9  - forth function parameter
-fifth+ functions parameters are PUSHed onto stack
-command line arguments:
-argc in rcx
-argv in rdx(rdx+8 for second,rdx+16 for third etc)
-argc in 
+DO NOT FORGET ABOUT CALLING CONVENTIONS AND SHADOW SPACE<br>
+RAX - function return value<br>
+RCX - first function parameter<br>
+RDX - second function parameter<br>
+R8  - third function parameter<br>
+R9  - forth function parameter<br>
+fifth+ functions parameters are PUSHed onto stack<br>
+command line arguments:<br>
+argc in rcx<br>
+argv in rdx(rdx+8 for second,rdx+16 for third etc)<br>
