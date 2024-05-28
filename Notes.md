@@ -50,3 +50,8 @@ fifth+ functions parameters are PUSHed onto stack<br>
 command line arguments:<br>
 argc in rcx<br>
 argv in rdx(rdx+8 for second,rdx+16 for third etc)<br>
+# GRAPHICS
+To render something into imgui image - 
+1)Create a framebuffer and a texture to it
+2)Bind framebuffer before draw calls, so everything gets rendered into fbo
+3)Use texture ID to create imgui image
